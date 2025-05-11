@@ -1,24 +1,16 @@
-
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
-
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-  
   return <nav className="py-4 px-6 md:px-12 lg:px-24 w-full bg-white/80 backdrop-blur-sm fixed top-0 z-50">
       <div className="flex justify-between items-center">
         <div className="flex items-center">
           <a href="/" className="block">
-            <img 
-              src="/lovable-uploads/3508bf57-106d-4c54-9c4d-a49586ad927e.png" 
-              alt="Wizpen Studio" 
-              className="h-10 md:h-12" 
-            />
+            <img alt="Wizpen Studio" src="/lovable-uploads/f662c092-5e68-4b93-9f6c-050d188f8026.png" className="h-7 md:h-12 object-contain" />
           </a>
         </div>
 
@@ -53,5 +45,4 @@ const Navbar = () => {
         </div>}
     </nav>;
 };
-
 export default Navbar;
