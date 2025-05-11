@@ -18,9 +18,7 @@ const HeroSection = () => {
             </p>
             
             <div className="mt-10 flex flex-col sm:flex-row gap-4 appear-animation appear-animation-delay-2">
-              <Button size="lg" className="bg-wizpen-primary hover:bg-opacity-90 text-white text-lg px-8 py-6">
-                Start creating for free
-              </Button>
+              <Button size="lg" className="bg-wizpen-primary hover:bg-opacity-90 text-white text-lg px-8 py-6">Start Creating and Selling For FREE</Button>
               
             </div>
             
