@@ -1,20 +1,17 @@
-
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import LanguageToggle from './LanguageToggle';
-
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { t } = useLanguage();
-  
+  const {
+    t
+  } = useLanguage();
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-  
-  return (
-    <nav className="py-4 px-6 md:px-12 lg:px-24 w-full bg-white/80 backdrop-blur-sm fixed top-0 z-50">
+  return <nav className="py-4 px-6 md:px-12 lg:px-24 w-full bg-white/80 backdrop-blur-sm fixed top-0 z-50">
       <div className="flex justify-between items-center">
         <div className="flex items-center">
           <a href="/" className="block">
@@ -50,8 +47,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Navigation */}
-      {isMenuOpen && (
-        <div className="md:hidden absolute top-16 left-0 right-0 bg-white shadow-lg py-4 px-6 z-40">
+      {isMenuOpen && <div className="md:hidden absolute top-16 left-0 right-0 bg-white shadow-lg py-4 px-6 z-40">
           <div className="flex flex-col space-y-4">
             <a href="#features" className="text-gray-700 hover:text-wizpen-accent transition-colors duration-200">
               {t('nav', 'features')}
@@ -69,10 +65,7 @@ const Navbar = () => {
               {t('nav', 'get_started')}
             </Button>
           </div>
-        </div>
-      )}
-    </nav>
-  );
+        </div>}
+    </nav>;
 };
-
 export default Navbar;
