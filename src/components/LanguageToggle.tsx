@@ -9,10 +9,10 @@ const LanguageToggle = () => {
   return (
     <Button 
       variant="ghost" 
-      className="text-sm font-medium"
+      className="text-sm font-medium transition-all duration-300 hover:bg-gray-100"
       onClick={() => setLanguage(language === 'en' ? 'id' : 'en')}
     >
-      {language === 'en' ? '🇮🇩 ID' : '🇺🇸 EN'}
+      {language === 'en' ? '🇮🇩 Bahasa' : '🇺🇸 English'}
     </Button>
   );
 };
