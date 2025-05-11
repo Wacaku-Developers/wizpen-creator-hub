@@ -34,7 +34,7 @@ const HeroSection = () => {
             <div className="relative h-full min-h-[400px] p-4">
               <div className="absolute inset-0 bg-gradient-to-br from-wizpen-accent/20 to-wizpen-primary/20 rounded-2xl transform rotate-3 scale-95"></div>
               <div className="absolute inset-0 rounded-2xl overflow-hidden">
-                <img alt="Person using laptop" className="w-full h-full object-cover" src="/lovable-uploads/2b8d0072-900d-4fa2-8de0-ada2cbafca91.png" />
+                <img alt="Person using laptop" src="/lovable-uploads/2b8d0072-900d-4fa2-8de0-ada2cbafca91.png" className="w-full h-full object-contain" />
               </div>
             </div>
           </div>
