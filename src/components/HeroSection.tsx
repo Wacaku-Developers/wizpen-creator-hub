@@ -35,22 +35,12 @@ const HeroSection = () => {
           <div className="lg:col-span-5 appear-animation appear-animation-delay-2">
             <div className="relative h-full min-h-[400px] p-4">
               <div className="absolute inset-0 bg-gradient-to-br from-wizpen-accent/20 to-wizpen-primary/20 rounded-2xl transform rotate-3 scale-95"></div>
-              <div className="absolute inset-0 bg-white rounded-2xl border border-gray-200 shadow-xl backdrop-blur-sm">
-                <div className="p-6">
-                  <div className="h-10 w-32 bg-wizpen-primary rounded mb-4"></div>
-                  <div className="h-6 w-3/4 bg-gray-200 rounded mb-3"></div>
-                  <div className="h-6 w-1/2 bg-gray-200 rounded mb-6"></div>
-                  
-                  <div className="flex space-x-2 mb-6">
-                    <div className="h-10 w-20 bg-wizpen-accent rounded"></div>
-                    <div className="h-10 w-20 bg-gray-200 rounded"></div>
-                  </div>
-                  
-                  <div className="h-32 bg-gray-100 rounded mb-4"></div>
-                  <div className="h-4 w-full bg-gray-200 rounded mb-2"></div>
-                  <div className="h-4 w-3/4 bg-gray-200 rounded mb-2"></div>
-                  <div className="h-4 w-1/2 bg-gray-200 rounded"></div>
-                </div>
+              <div className="absolute inset-0 rounded-2xl overflow-hidden">
+                <img 
+                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" 
+                  alt="Person using laptop" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
