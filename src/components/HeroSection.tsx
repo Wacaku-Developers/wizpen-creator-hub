@@ -1,25 +1,30 @@
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
+import { useLanguage } from '@/contexts/LanguageContext';
+
 const HeroSection = () => {
-  return <section className="pt-32 pb-20 px-6 md:px-12 lg:px-24">
+  const { t } = useLanguage();
+  
+  return (
+    <section className="pt-32 pb-20 px-6 md:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           <div className="lg:col-span-7 flex flex-col justify-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-montserrat font-bold text-wizpen-primary leading-tight appear-animation">
-              Create, Sell, and Manage
-              <span className="text-wizpen-accent"> Digital Content</span>
-              <span> with Full Control</span>
+              {t('hero', 'title1')}
+              <span className="text-wizpen-accent"> {t('hero', 'title2')}</span>
+              <span> {t('hero', 'title3')}</span>
             </h1>
             
             <p className="mt-6 text-lg md:text-xl text-gray-700 appear-animation appear-animation-delay-1">
-              A powerful all-in-one platform for creators to publish and monetize content — 
-              from bite-sized posts to full eBooks, with complete ownership over your pricing, sales, and revenue.
+              {t('hero', 'subtitle')}
             </p>
             
             <div className="mt-10 flex flex-col sm:flex-row gap-4 appear-animation appear-animation-delay-2">
-              <Button size="lg" className="bg-wizpen-primary hover:bg-opacity-90 text-white text-lg px-8 py-6">Start Creating and Selling For FREE</Button>
-              
+              <Button size="lg" className="bg-wizpen-primary hover:bg-opacity-90 text-white text-lg px-8 py-6">
+                {t('hero', 'cta')}
+              </Button>
             </div>
             
             <div className="mt-10 appear-animation appear-animation-delay-3">
@@ -51,6 +56,8 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default HeroSection;
