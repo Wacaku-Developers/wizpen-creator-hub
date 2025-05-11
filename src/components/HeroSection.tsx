@@ -1,13 +1,11 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
-
 const HeroSection = () => {
-  const { t } = useLanguage();
-  
-  return (
-    <section className="pt-32 pb-20 px-6 md:px-12 lg:px-24">
+  const {
+    t
+  } = useLanguage();
+  return <section className="pt-32 pb-20 px-6 md:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           <div className="lg:col-span-7 flex flex-col justify-center">
@@ -36,18 +34,12 @@ const HeroSection = () => {
             <div className="relative h-full min-h-[400px] p-4">
               <div className="absolute inset-0 bg-gradient-to-br from-wizpen-accent/20 to-wizpen-primary/20 rounded-2xl transform rotate-3 scale-95"></div>
               <div className="absolute inset-0 rounded-2xl overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" 
-                  alt="Person using laptop" 
-                  className="w-full h-full object-cover"
-                />
+                <img alt="Person using laptop" className="w-full h-full object-cover" src="/lovable-uploads/2b8d0072-900d-4fa2-8de0-ada2cbafca91.png" />
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
