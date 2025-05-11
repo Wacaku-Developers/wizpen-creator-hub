@@ -32,7 +32,7 @@ const CTASection = () => {
                   <div className="h-12 w-12 rounded-full bg-wizpen-accent/50 mr-4"></div>
                   <div>
                     <div className="font-medium">Sarah Johnson</div>
-                    <div className="text-sm opacity-75">Digital Creator & Author</div>
+                    <div className="text-sm opacity-75">Wattpad Author</div>
                   </div>
                 </div>
               </div>
