@@ -1,30 +1,19 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
-
 const CTASection = () => {
-  return (
-    <section className="py-20 px-6 md:px-12 lg:px-24 bg-gradient-to-br from-wizpen-primary to-black text-white">
+  return <section className="py-20 px-6 md:px-12 lg:px-24 bg-gradient-to-br from-wizpen-primary to-black text-white">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-montserrat font-bold mb-6 leading-tight">
               Ready to take control of your creator business?
             </h2>
-            <p className="text-lg opacity-90 mb-8">
-              Join thousands of creators who are building sustainable businesses with complete ownership using Wizpen Studio. Launch in minutes, not weeks.
-            </p>
+            <p className="text-lg opacity-90 mb-8">Join thousands of creators who are building sustainable businesses with complete ownership using WizStudio. Launch in minutes, not weeks.</p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-wizpen-accent hover:bg-opacity-90 text-white text-lg px-8 py-6">
                 Get started for free
               </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="border-white text-white hover:bg-white hover:text-wizpen-primary text-lg px-8 py-6"
-              >
-                Schedule a demo
-              </Button>
+              
             </div>
           </div>
           
@@ -37,9 +26,7 @@ const CTASection = () => {
                   <div className="h-1 w-20 bg-wizpen-accent"></div>
                 </div>
                 <blockquote className="mb-6">
-                  <p className="text-lg italic">
-                    "Wizpen Studio revolutionized my content business. Complete control, better margins, and a direct relationship with my audience."
-                  </p>
+                  <p className="text-lg italic">"WizStudio revolutionized my bite-size content selling. Complete control, best margins, and a direct relationship with my audience."</p>
                 </blockquote>
                 <div className="flex items-center">
                   <div className="h-12 w-12 rounded-full bg-wizpen-accent/50 mr-4"></div>
@@ -53,8 +40,6 @@ const CTASection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default CTASection;

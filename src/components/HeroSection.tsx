@@ -1,11 +1,8 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
-
 const HeroSection = () => {
-  return (
-    <section className="pt-32 pb-20 px-6 md:px-12 lg:px-24">
+  return <section className="pt-32 pb-20 px-6 md:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           <div className="lg:col-span-7 flex flex-col justify-center">
@@ -24,13 +21,7 @@ const HeroSection = () => {
               <Button size="lg" className="bg-wizpen-primary hover:bg-opacity-90 text-white text-lg px-8 py-6">
                 Start creating for free
               </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="border-wizpen-accent text-wizpen-accent hover:bg-wizpen-accent hover:text-white text-lg px-8 py-6"
-              >
-                See how it works <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
+              
             </div>
             
             <div className="mt-10 appear-animation appear-animation-delay-3">
@@ -65,8 +56,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
