@@ -27,9 +27,7 @@ const Navbar = () => {
           <a href="#how-it-works" className="text-gray-700 hover:text-wizpen-accent transition-colors duration-200">
             {t('nav', 'how_it_works')}
           </a>
-          <a href="#pricing" className="text-gray-700 hover:text-wizpen-accent transition-colors duration-200">
-            {t('nav', 'pricing')}
-          </a>
+          
           
           <LanguageToggle />
           <Button className="bg-wizpen-accent hover:bg-opacity-90 text-white">
