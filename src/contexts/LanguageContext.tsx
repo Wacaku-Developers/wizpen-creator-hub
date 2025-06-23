@@ -38,8 +38,8 @@ const translations: Translations = {
   features: {
     title_en: "Everything creators need in one platform",
     title_id: "Semua yang kreator butuhkan dalam satu platform",
-    subtitle_en: "No more juggling between different tools. WizStudio gives you everything you need to create, sell, and grow — all in one place.",
-    subtitle_id: "Nggak perlu lagi sibuk pakai banyak alat. WizStudio kasih semua yang kamu butuhkan untuk bikin, jual, dan berkembang — semuanya dalam satu tempat.",
+    subtitle_en: "No more juggling between different tools. Wizpen gives you everything you need to create, sell, and grow — all in one place.",
+    subtitle_id: "Nggak perlu lagi sibuk pakai banyak alat. Wizpen kasih semua yang kamu butuhkan untuk bikin, jual, dan berkembang — semuanya dalam satu tempat.",
     studio_title_en: "Studio",
     studio_title_id: "Studio",
     studio_desc_en: "Create and publish bite-sized or longform content with an intuitive editor designed for creators.",
@@ -66,8 +66,8 @@ const translations: Translations = {
     speed_desc_id: "Antarmuka yang gampang dipakai dirancang untuk kecepatan, kejelasan, dan pengelolaan konten yang mulus.",
   },
   how_it_works: {
-    title_en: "How WizStudio Works",
-    title_id: "Gimana WizStudio Bekerja",
+    title_en: "How Wizpen Works",
+    title_id: "Gimana Wizpen Bekerja",
     subtitle_en: "Launch and sell your content in minutes with our streamlined process. No fee % required when withdrawal, no complex setup — just pure creation and monetization.",
     subtitle_id: "Luncurkan dan jual kontenmu dalam hitungan menit dengan proses yang simpel. Nggak ada biaya persentase saat penarikan, nggak ribet setting — cuma bikin dan hasilkan uang aja.",
     step1_title_en: "Create Your Content",
@@ -102,14 +102,14 @@ const translations: Translations = {
   cta: {
     title_en: "Ready to take control of your creator business?",
     title_id: "Siap ambil kendali bisnis kreatormu?",
-    subtitle_en: "Join thousands of creators who are building sustainable businesses with complete ownership using WizStudio. Launch in minutes, not weeks.",
-    subtitle_id: "Gabung dengan ribuan kreator yang membangun bisnis berkelanjutan dengan kepemilikan penuh menggunakan WizStudio. Meluncur dalam hitungan menit, bukan minggu.",
+    subtitle_en: "Join thousands of creators who are building sustainable businesses with complete ownership using Wizpen. Launch in minutes, not weeks.",
+    subtitle_id: "Gabung dengan ribuan kreator yang membangun bisnis berkelanjutan dengan kepemilikan penuh menggunakan Wizpen. Meluncur dalam hitungan menit, bukan minggu.",
     button_en: "Get started for free",
     button_id: "Mulai gratis",
     testimonial_title_en: "What creators are saying",
     testimonial_title_id: "Apa kata para kreator",
-    testimonial_quote_en: "WizStudio revolutionized my bite-size content selling. Complete control, best margins, and a direct relationship with my audience.",
-    testimonial_quote_id: "WizStudio merevolusi penjualan konten singkatku. Kontrol penuh, margin terbaik, dan hubungan langsung dengan audiensku.",
+    testimonial_quote_en: "Wizpen revolutionized my bite-size content selling. Complete control, best margins, and a direct relationship with my audience.",
+    testimonial_quote_id: "Wizpen merevolusi penjualan konten singkatku. Kontrol penuh, margin terbaik, dan hubungan langsung dengan audiensku.",
   }
 };
 
