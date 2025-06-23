@@ -1,4 +1,3 @@
-
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 
 type Language = 'en' | 'id';
@@ -30,8 +29,8 @@ const translations: Translations = {
     title2_id: "Konten Digital",
     title3_en: "with Full Control",
     title3_id: "dengan Kontrol Penuh",
-    subtitle_en: "A powerful all-in-one platform for creators to publish and monetize content — from bite-sized posts to full eBooks, with complete ownership over your pricing, sales, and revenue.",
-    subtitle_id: "Platform serba bisa buat kreator untuk terbitkan dan menghasilkan uang dari konten — dari postingan pendek sampai eBook lengkap, dengan kendali penuh atas harga, penjualan, dan penghasilan kamu.",
+    subtitle_en: "All-in-one, zero-commission platform where creators publish anything—text, photos, videos—and monetize on their terms. From quick posts to full-length content, you own the pricing, the sales, and every cent of the revenue.",
+    subtitle_id: "Platform serba bisa tanpa komisi untuk kreator menerbitkan apa saja—teks, foto, video—dan monetisasi sesuai keinginan. Dari postingan singkat hingga konten panjang, kamu yang menentukan harga, penjualan, dan setiap sen penghasilan.",
     cta_en: "Start Creating and Selling For FREE",
     cta_id: "Mulai Bikin dan Jual GRATIS",
   },
